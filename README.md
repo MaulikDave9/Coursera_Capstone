@@ -9,5 +9,16 @@ Goal is to understand this data to predict what factors lead to severity of acci
 
 ### Data
 
-Seattle city as an example of how to deal with the accidents data. 
-Let's open the CSV file and check what type of data we have. The first column colored in yellow is the labeled data. The remaining columns have different types of attributes. Some or all can be used to train the model. You can also find that most of the observations are good to train and test the machine learning model. The label for the data set is severity, which describes the fatality of an accident. You will notice that the shared data has unbalanced labels. You should balance the data, otherwise, you will create a biased ML model. The following is a list of attributes or features that you can use. For good description of each attribute, you can refer to the web link on the CSV file. You might need to do some feature engineering to improve the predictability of your model. You can get the data set from any open source, such as Open Government Data portal, or any research groups that allow you to use their data. Here are some good resources that can help you find your data set and start building your machine learning model. I recommend you go through them carefully. Good luck.
+Dataset is Seattle city collision data provided by the Seattle Police Department and recorded by Traffic Records.  It consists  ~194673 instances of collisions and ~38 attributes describing the event - severity of the accident, location, weather, collision type etc.  Collisions will be displayed at the intersection or mid-block of a segment. Timeframe of the data is 2004 to Present, thus it includes over 15 years of data that will help to see the trend over a decade.
+
+This data will be explored to find what features most relevant to predict the severity of the accident.
+ 
+Meta data to understand the attributes: https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Metadata.pdf
+
+For example: SEVERITYCODE: A code that corresponds to the severity of the collision.
+
+    3—fatality
+    2b—serious injury
+    2—injury
+    1—prop damage
+    0—unknown 
