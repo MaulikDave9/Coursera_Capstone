@@ -2,14 +2,14 @@
 
 ### Files
 
-(1) Car Collision Analytics.ipynb - Notebook with ML Models Code.
+1. Car Collision Analytics.ipynb - Notebook with ML Models Code.
 
-(2) Collision Data Exploration.ipynb - This notebook presents Report for this project with summary or results.
+2. Collision Data Exploration.ipynb - This notebook presents Report for this project with summary or results.
 
-(3) Data-Collisions.csv - Data file
+3. Data-Collisions.csv - Data file
     
-(4) Seattle Severe Car Collisions.jpg - This is Tableau Dashboard image. Interactive dashboard can be found at:
-    https://public.tableau.com/profile/maulikdave9#!/vizhome/CarCollisionsthatareSevereSeattle/SeattleSevereCarCollisions
+4. Seattle Severe Car Collisions.jpg - This is Tableau Dashboard image. Interactive dashboard can be found at:
+   https://public.tableau.com/profile/maulikdave9#!/vizhome/CarCollisionsthatareSevereSeattle/SeattleSevereCarCollisions
 
 ### Data
 
